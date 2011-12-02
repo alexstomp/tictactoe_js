@@ -33,7 +33,8 @@ sqr9 = document.tic.sqr9.value
 
 // CHECK IF PLAYER WINS -- A.K.A FAIL CHECK!
 
-function check(){
+function check()
+{
 
   if(sqr1 == " X " && sqr2 == " X " && sqr3 == " X "){
     alert("You Win! I fail >.<!")
