@@ -1,0 +1,39 @@
+/*
+Site Name: TIC TAC TOE
+Author: Alex Stomp
+Author URI: http://www.vampa.org
+*/
+
+
+/*** RESET STYLES ***/
+
+html, body, div, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: small;
+	letter-spacing: -.12px;
+	font: 14px/21px;
+	font-family: 'Trebuchet MS', 'Trebuchet', Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+body{width: 500px; margin: 100px auto;text-align: center;}
+h2{float: left; font-size: xx-large;width: 500px;text-align: left;}
+p{margin-top: 10px; font-size: large; width: 500px; float: left; color: #747474;text-align: left;margin-bottom: 50px;}
+
+.tictac{width: 125px; height: 125px;background: white;margin: 0;padding: 0;border: none;font-size: xx-large;}
+.tictac[name = "sqr1"], .tictac[name = "sqr2"], .tictac[name = "sqr4"], .tictac[name = "sqr5"], .tictac[name = "sqr7"],.tictac[name = "sqr8"] {border-right: 5px solid black;}
+.tictac[name = "sqr1"], .tictac[name = "sqr2"], .tictac[name = "sqr3"], .tictac[name = "sqr4"], .tictac[name = "sqr5"],.tictac[name = "sqr6"] {border-bottom: 5px solid black;}
+
